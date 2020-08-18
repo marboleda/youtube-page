@@ -1,0 +1,17 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#search-button {
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+input {
+    width: 30vw;
+}
