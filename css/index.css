@@ -72,6 +72,57 @@ iframe {
     border-radius: 5px;
 }
 
+#comments-header {
+    display: flex;
+    flex-direction: row;
+}
+
+#comments-header > button {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#comment-input {
+    margin-bottom: 30px;
+}
+
+#comment-input > input {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+}
+
+#first-comment {
+    display: flex;
+    flex-direction: row;
+}
+
+#first-comment > img {
+    width: 40px;
+    height: 40px;
+}
+
+#recommended-videos {
+    grid-column-start: 2;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: end;
+}
+
+.comment-user {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-user > * {
+    margin: 5px;
+}
+
 img {
     cursor: pointer;
 }
@@ -91,4 +142,8 @@ h1, h3, h4 {
 
 div {
     padding-left: 10px;
+}
+
+h3, p {
+    font-size: 0.9rem;
 }
